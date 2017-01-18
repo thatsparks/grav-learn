@@ -135,7 +135,7 @@ There is however a more powerful method of displaying forms that can take advant
 {% include "forms/form.html.twig" with { form: forms('contact-form') } %}
 ```
 
-Using this method, you can choose a specific name of a form to display.  You can even provide the name of a form that's defined in another page.  As long as all your form names are unique throughout your site, Grav will find and render the correct form!
+Using this method, you can choose a specific name of a form to display.  You can even provide the name of a form defined in _other pages_.  As long as all your form names are unique throughout your site, Grav will find and render the correct form!
 
 You can even display multiple forms in one page:
 
